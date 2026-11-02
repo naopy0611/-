@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+body{
+  background:#08101f;
+  color:#ffffff;
+}
+
+.header{
+  background:linear-gradient(135deg,#6d28d9,#4338ca);
+  padding:24px;
+  text-align:center;
+}
+
+.header p{
+  color:#ddd6fe;
+}
+
+main{
+  padding:16px;
+}
+
+.card{
+  background:#111827;
+  border:1px solid #374151;
+  border-radius:18px;
+  padding:18px;
+  margin-bottom:16px;
+}
+
+.hidden{
+  display:none;
+}
+
+h2,h3{
+  color:white;
+  margin-bottom:12px;
+}
+
+label{
+  display:block;
+  margin:10px 0 6px;
+  color:#d1d5db;
+}
+
+select,input{
+  width:100%;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  background:#1f2937;
+  color:white;
+  margin-bottom:10px;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  background:#7c3aed;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  margin-top:8px;
+}
+
+button:active{
+  transform:scale(.98);
+}
+
+.status{
+  display:flex;
+  gap:10px;
+  margin:16px 0;
+}
+
+.status div{
+  flex:1;
+  background:#1f2937;
+  border-radius:12px;
+  padding:12px;
+  text-align:center;
+}
+
+.status span{
+  color:#9ca3af;
+  font-size:13px;
+}
+
+.status strong{
+  display:block;
+  font-size:26px;
+  margin-top:4px;
+}
+
+#roleCard{
+  background:#1f2937;
+  border:2px solid #7c3aed;
+  border-radius:16px;
+  padding:28px;
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+  color:white;
+  margin:18px 0;
+}
+
+#resultText{
+  color:#fde68a;
+  font-weight:bold;
+  margin-top:10px;
+  text-align:center;
+}
+
+#logArea{
+  margin-top:18px;
+  background:#1f2937;
+  border-radius:12px;
+  padding:12px;
+  min-height:90px;
+  color:#e5e7eb;
+  font-size:14px;
+}
